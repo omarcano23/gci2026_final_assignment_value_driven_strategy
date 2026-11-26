@@ -1,4 +1,4 @@
-# Customer Retention Intelligence | Company A
+# A Value-Driven Machine Learning Strategy for Company A
 
 **GCI World 2026 - Final Assignment | Omar Cano | UCLA MASDS**
 
