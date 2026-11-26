@@ -1,0 +1,12 @@
+{
+  "diagnostico/fase3/preliminar/resultados/split_manifest.csv": "c894e695d999a2da8f1dcf13ed7853f50c2356aeb7b28f855c79e5de452fb494",
+  "diagnostico/fase3/preliminar/resultados/audit.json": "cfd21fe3f8047d387d1582863667ca952be8f0703289b2b5bc271d0cd2e81c5e",
+  "diagnostico/fase5/resultados/audit.json": "8bcf81d4f3cd59097baeeece2d041d983766a1d593c3feb6e92c75c860a7ecdf",
+  "diagnostico/fase5/resultados/split_proposal.json": "d2cb7b4b89798ac9e8a5668400cfd8753bda2a5af86eee0315e634b88b2e2eaf",
+  "diagnostico/fase5/resultados/feature_register.csv": "cc3f2313e62adb7c0c547cd82260163cb01b92a9a0059775c55845a6f2b87c4b",
+  "diagnostico/fase6/corte04/results/train_manifest.csv": "4c650c010e0af73f9268d7f53fef48b8d1d131cfee72f6c414f5963bbe0cc7d7",
+  "diagnostico/fase6/corte03_work/train_manifest.csv": "4c650c010e0af73f9268d7f53fef48b8d1d131cfee72f6c414f5963bbe0cc7d7",
+  "diagnostico/fase6/corte02/results/candidate_recipes.json": "886ab2a0405c5bae7a4983a51497cc3eeceb9a38a0d0383be1f476aaadc0a9c2",
+  "diagnostico/fase6/corte04/results/policies.json": "1356097ef4f702a550fbe749328b09bb873dc9cdb74dac32b97c6919f1c04e6b",
+  "diagnostico/fase6/corte04/results/shortlist.json": "912c151884a5d73d4af6bfe627491675cccd75f46b10ff5949c53cdc50de8c2d"
+}

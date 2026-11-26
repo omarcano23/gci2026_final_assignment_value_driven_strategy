@@ -1,0 +1,101 @@
+variable,definition,timing,status,missing_n,rule
+uniqsubs,Number of unique subscribers in the household,lifetime/snapshot cutoff unconfirmed,conditional_snapshot,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+actvsubs,Number of active subscribers in household,lifetime/snapshot cutoff unconfirmed,conditional_snapshot,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+new_cell,New cell phone user,lifetime/snapshot cutoff unconfirmed,conditional_snapshot,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+crclscod,Credit class code,snapshot cutoff unconfirmed,audit_only,0,no production targeting; governance review
+asl_flag,Account spending limit,snapshot cutoff unconfirmed,audit_only,0,no production targeting; governance review
+totcalls,Total number of calls over the life of the customer,lifetime/snapshot cutoff unconfirmed,conditional_snapshot,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+totmou,Total minutes of use over the life of the customer,lifetime/snapshot cutoff unconfirmed,conditional_snapshot,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+totrev,Total revenue,lifetime/snapshot cutoff unconfirmed,conditional_snapshot,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+adjrev,Billing adjusted total revenue over the life of the customer,lifetime/snapshot cutoff unconfirmed,conditional_snapshot,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+adjmou,Billing adjusted total minutes of use over the life of the customer,lifetime/snapshot cutoff unconfirmed,conditional_snapshot,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+adjqty,Billing adjusted total number of calls over the life of the customer,lifetime/snapshot cutoff unconfirmed,conditional_snapshot,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+avgrev,Average monthly revenue over the life of the customer,lifetime/snapshot cutoff unconfirmed,conditional_snapshot,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+avgmou,Average monthly minutes of use over the life of the customer,lifetime/snapshot cutoff unconfirmed,conditional_snapshot,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+avgqty,Average monthly number of calls over the life of the customer,lifetime/snapshot cutoff unconfirmed,conditional_snapshot,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+avg3mou,Average monthly minutes of use over the previous three months,"prior 3/6 months, exact cutoff unconfirmed",candidate_unverified,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+avg3qty,Average monthly number of calls over the previous three months,"prior 3/6 months, exact cutoff unconfirmed",candidate_unverified,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+avg3rev,Average monthly revenue over the previous three months,"prior 3/6 months, exact cutoff unconfirmed",candidate_unverified,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+avg6mou,Average monthly minutes of use over the previous six months,"prior 3/6 months, exact cutoff unconfirmed",candidate_unverified,1987,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+avg6qty,Average monthly number of calls over the previous six months,"prior 3/6 months, exact cutoff unconfirmed",candidate_unverified,1987,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+avg6rev,Average monthly revenue over the previous six months,"prior 3/6 months, exact cutoff unconfirmed",candidate_unverified,1987,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+prizm_social_one,Social group letter only,snapshot cutoff unconfirmed,audit_only,5189,no production targeting; governance review
+area,Geogrpahic area,snapshot cutoff unconfirmed,audit_only,26,no production targeting; governance review
+dualband,Dualband,lifetime/snapshot cutoff unconfirmed,conditional_snapshot,1,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+refurb_new,Handset: refurbished or new,lifetime/snapshot cutoff unconfirmed,conditional_snapshot,1,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+hnd_price,Current handset price,lifetime/snapshot cutoff unconfirmed,conditional_snapshot,615,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+phones,Number of handsets issued,lifetime/snapshot cutoff unconfirmed,conditional_snapshot,1,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+models,Number of models issued,lifetime/snapshot cutoff unconfirmed,conditional_snapshot,1,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+hnd_webcap,Handset web capability,lifetime/snapshot cutoff unconfirmed,conditional_snapshot,7107,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+truck,Truck indicator,snapshot cutoff unconfirmed,audit_only,1226,no production targeting; governance review
+rv,RV indicator,snapshot cutoff unconfirmed,audit_only,1226,no production targeting; governance review
+ownrent,Home owner/renter status,snapshot cutoff unconfirmed,audit_only,23627,no production targeting; governance review
+lor,Length of residence,snapshot cutoff unconfirmed,audit_only,21169,no production targeting; governance review
+dwlltype,Dwelling Unit type,snapshot cutoff unconfirmed,audit_only,22393,no production targeting; governance review
+marital,Marital Status,snapshot cutoff unconfirmed,audit_only,1226,no production targeting; governance review
+adults,Number of adults in household,snapshot cutoff unconfirmed,audit_only,16126,no production targeting; governance review
+infobase,InfoBase match,snapshot cutoff unconfirmed,audit_only,15457,no production targeting; governance review
+income,Estimated income,snapshot cutoff unconfirmed,audit_only,17830,no production targeting; governance review
+numbcars,Known number of vehicles,snapshot cutoff unconfirmed,audit_only,34662,no production targeting; governance review
+HHstatin,Premier household status indicator,snapshot cutoff unconfirmed,audit_only,26521,no production targeting; governance review
+dwllsize,Dwelling size,snapshot cutoff unconfirmed,audit_only,26868,no production targeting; governance review
+forgntvl,Foreign travel dummy variable,snapshot cutoff unconfirmed,audit_only,1226,no production targeting; governance review
+ethnic,Ethnicity roll-up code,snapshot cutoff unconfirmed,audit_only,1226,no production targeting; governance review
+kid0_2,Child 0 - 2 years of age in household,snapshot cutoff unconfirmed,audit_only,1226,no production targeting; governance review
+kid3_5,Child 3 - 5 years of age in household,snapshot cutoff unconfirmed,audit_only,1226,no production targeting; governance review
+kid6_10,Child 6 - 10 years of age in household,snapshot cutoff unconfirmed,audit_only,1226,no production targeting; governance review
+kid11_15,Child 11 - 15 years of age in household,snapshot cutoff unconfirmed,audit_only,1226,no production targeting; governance review
+kid16_17,Child 16 - 17 years of age in household,snapshot cutoff unconfirmed,audit_only,1226,no production targeting; governance review
+creditcd,Credit card indicator,snapshot cutoff unconfirmed,audit_only,1226,no production targeting; governance review
+eqpdays,Number of days (age) of current equipment,lifetime/snapshot cutoff unconfirmed,conditional_snapshot,1,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+Customer_ID,NaN,key only,exclude,0,never predictor
+rev_Mean,Mean monthly revenue (charge amount),aggregation period/cutoff unconfirmed,candidate_unverified,262,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+mou_Mean,Mean number of monthly minutes of use,aggregation period/cutoff unconfirmed,candidate_unverified,262,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+totmrc_Mean,Mean total monthly recurring charge,aggregation period/cutoff unconfirmed,candidate_unverified,262,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+da_Mean,Mean number of directory assisted calls,aggregation period/cutoff unconfirmed,candidate_unverified,262,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+ovrmou_Mean,Mean overage minutes of use,aggregation period/cutoff unconfirmed,candidate_unverified,262,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+ovrrev_Mean,Mean overage revenue,aggregation period/cutoff unconfirmed,candidate_unverified,262,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+vceovr_Mean,Mean revenue of voice overage,aggregation period/cutoff unconfirmed,candidate_unverified,262,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+datovr_Mean,Mean revenue of data overage,aggregation period/cutoff unconfirmed,candidate_unverified,262,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+roam_Mean,Mean number of roaming calls,aggregation period/cutoff unconfirmed,candidate_unverified,262,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+change_mou,Percentage change in monthly minutes of use vs previous three month average,"prior 3/6 months, exact cutoff unconfirmed",candidate_unverified,630,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+change_rev,Percentage change in monthly revenue vs previous three month average,"prior 3/6 months, exact cutoff unconfirmed",candidate_unverified,630,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+drop_vce_Mean,Mean number of dropped (failed) voice calls,aggregation period/cutoff unconfirmed,candidate_unverified,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+drop_dat_Mean,Mean number of dropped (failed) data calls,aggregation period/cutoff unconfirmed,candidate_unverified,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+blck_vce_Mean,Mean number of blocked (failed) voice calls,aggregation period/cutoff unconfirmed,candidate_unverified,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+blck_dat_Mean,Mean number of blocked (failed) data calls,aggregation period/cutoff unconfirmed,candidate_unverified,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+unan_vce_Mean,Mean number of unanswered voice calls,aggregation period/cutoff unconfirmed,candidate_unverified,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+unan_dat_Mean,Mean number of unanswered data calls,aggregation period/cutoff unconfirmed,candidate_unverified,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+plcd_vce_Mean,Mean number of attempted voice calls placed,aggregation period/cutoff unconfirmed,candidate_unverified,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+plcd_dat_Mean,Mean number of attempted data calls placed,aggregation period/cutoff unconfirmed,candidate_unverified,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+recv_vce_Mean,Mean number of received voice calls,aggregation period/cutoff unconfirmed,candidate_unverified,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+recv_sms_Mean,NaN,undefined,exclude,0,never predictor
+comp_vce_Mean,Mean number of completed voice calls,aggregation period/cutoff unconfirmed,candidate_unverified,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+comp_dat_Mean,Mean number of completed data calls,aggregation period/cutoff unconfirmed,candidate_unverified,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+custcare_Mean,Mean number of customer care calls,aggregation period/cutoff unconfirmed,candidate_unverified,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+ccrndmou_Mean,Mean rounded minutes of use of customer care calls,aggregation period/cutoff unconfirmed,candidate_unverified,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+cc_mou_Mean,Mean unrounded minutes of use of customer care (see CUSTCARE_MEAN) calls,aggregation period/cutoff unconfirmed,candidate_unverified,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+inonemin_Mean,Mean number of inbound calls less than one minute,aggregation period/cutoff unconfirmed,candidate_unverified,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+threeway_Mean,Mean number of three way calls,aggregation period/cutoff unconfirmed,candidate_unverified,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+mou_cvce_Mean,Mean unrounded minutes of use of completed voice calls,aggregation period/cutoff unconfirmed,candidate_unverified,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+mou_cdat_Mean,Mean unrounded minutes of use of completed data calls,aggregation period/cutoff unconfirmed,candidate_unverified,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+mou_rvce_Mean,Mean unrounded minutes of use of received voice calls,aggregation period/cutoff unconfirmed,candidate_unverified,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+owylis_vce_Mean,Mean number of outbound wireless to wireless voice calls,aggregation period/cutoff unconfirmed,candidate_unverified,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+mouowylisv_Mean,Mean unrounded minutes of use of outbound wireless to wireless voice calls,aggregation period/cutoff unconfirmed,candidate_unverified,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+iwylis_vce_Mean,NaN,undefined,exclude,0,never predictor
+mouiwylisv_Mean,Mean unrounded minutes of use of inbound wireless to wireless voice calls,aggregation period/cutoff unconfirmed,candidate_unverified,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+peak_vce_Mean,Mean number of inbound and outbound peak voice calls,aggregation period/cutoff unconfirmed,candidate_unverified,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+peak_dat_Mean,Mean number of peak data calls,aggregation period/cutoff unconfirmed,candidate_unverified,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+mou_peav_Mean,Mean unrounded minutes of use of peak voice calls,aggregation period/cutoff unconfirmed,candidate_unverified,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+mou_pead_Mean,Mean unrounded minutes of use of peak data calls,aggregation period/cutoff unconfirmed,candidate_unverified,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+opk_vce_Mean,Mean number of off-peak voice calls,aggregation period/cutoff unconfirmed,candidate_unverified,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+opk_dat_Mean,Mean number of off-peak data calls,aggregation period/cutoff unconfirmed,candidate_unverified,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+mou_opkv_Mean,Mean unrounded minutes of use of off-peak voice calls,aggregation period/cutoff unconfirmed,candidate_unverified,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+mou_opkd_Mean,Mean unrounded minutes of use of off-peak data calls,aggregation period/cutoff unconfirmed,candidate_unverified,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+drop_blk_Mean,Mean number of dropped or blocked calls,aggregation period/cutoff unconfirmed,candidate_unverified,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+attempt_Mean,Mean number of attempted calls,aggregation period/cutoff unconfirmed,candidate_unverified,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+complete_Mean,Mean number of completed calls,aggregation period/cutoff unconfirmed,candidate_unverified,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+callfwdv_Mean,Mean number of call forwarding calls,aggregation period/cutoff unconfirmed,candidate_unverified,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+callwait_Mean,Mean number of call waiting calls,aggregation period/cutoff unconfirmed,candidate_unverified,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified
+churn,Instance of churn between 31-60 days after observation date,target days 31–60,exclude,0,never predictor
+months,Total number of months in service,lifetime/snapshot cutoff unconfirmed,conditional_snapshot,0,confirm as-of t0; train-fold transforms; exclude in conservative ablation if cutoff unverified

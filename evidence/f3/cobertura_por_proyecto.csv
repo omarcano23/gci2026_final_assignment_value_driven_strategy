@@ -1,0 +1,8 @@
+project,fields,complete_n,complete_pct,screen_usable_n,screen_usable_pct
+P01,churn;rev_Mean;change_mou;avg3mou;months,69370,99.1,69368,99.09714285714286
+P02,rev_Mean;ovrrev_Mean;ovrmou_Mean;totmrc_Mean,69738,99.62571428571428,69719,99.59857142857143
+P03,churn;drop_blk_Mean;attempt_Mean;area,69974,99.96285714285715,55106,78.72285714285714
+P04,custcare_Mean;cc_mou_Mean,70000,100.0,70000,100.0
+P05,eqpdays;hnd_price;phones;months,69385,99.12142857142857,69313,99.01857142857143
+P06,actvsubs;uniqsubs,70000,100.0,70000,100.0
+P07,crclscod;asl_flag;rev_Mean,69738,99.62571428571428,69734,99.62

@@ -1,0 +1,405 @@
+{
+  "champion": "Blend_top3AUC",
+  "auc_challenger": "Blend_AUC_value",
+  "alpha": 1,
+  "components": {
+    "C01_Tdeep": [
+      "C01_Tdeep"
+    ],
+    "CAT_6": [
+      "CAT_6"
+    ],
+    "CAT_8": [
+      "CAT_8"
+    ],
+    "ExtraTrees": [
+      "ExtraTrees"
+    ],
+    "HistGB": [
+      "HistGB"
+    ],
+    "LGB_200": [
+      "LGB_200"
+    ],
+    "LGB_500": [
+      "LGB_500"
+    ],
+    "LGB_63": [
+      "LGB_63"
+    ],
+    "LGB_cat": [
+      "LGB_cat"
+    ],
+    "LGB_mech": [
+      "LGB_mech"
+    ],
+    "LGB_no_life": [
+      "LGB_no_life"
+    ],
+    "LGB_plus": [
+      "LGB_plus"
+    ],
+    "LGB_raw_change": [
+      "LGB_raw_change"
+    ],
+    "LGB_raw_revenue": [
+      "LGB_raw_revenue"
+    ],
+    "LGB_recent": [
+      "LGB_recent"
+    ],
+    "LGB_revweighted": [
+      "LGB_revweighted"
+    ],
+    "LGB_shallow": [
+      "LGB_shallow"
+    ],
+    "MLP": [
+      "MLP"
+    ],
+    "R3_AUC_bag": [
+      "R3_AUC_bag"
+    ],
+    "R3_AUC_deep": [
+      "R3_AUC_deep"
+    ],
+    "R3_VALUE_bag": [
+      "R3_VALUE_bag"
+    ],
+    "R3_VALUE_deep": [
+      "R3_VALUE_deep"
+    ],
+    "XGB_4": [
+      "XGB_4"
+    ],
+    "XGB_6": [
+      "XGB_6"
+    ],
+    "Blend_top3AUC": [
+      "R3_AUC_bag",
+      "R3_AUC_deep",
+      "LGB_raw_change"
+    ],
+    "Blend_AUC_value": [
+      "R3_AUC_bag",
+      "R3_VALUE_bag",
+      "R3_AUC_deep"
+    ],
+    "Blend_diverse": [
+      "R3_AUC_bag",
+      "XGB_4",
+      "CAT_8",
+      "MLP"
+    ]
+  },
+  "configs": {
+    "C01_Tdeep": {
+      "name": "C01_Tdeep",
+      "family": "lgb",
+      "features": "no_ambiguous",
+      "params": {
+        "num_leaves": 31,
+        "max_depth": 7,
+        "n_estimators": 80,
+        "learning_rate": 0.1,
+        "min_child_samples": 80
+      }
+    },
+    "LGB_mech": {
+      "name": "LGB_mech",
+      "family": "lgb",
+      "features": "mechanism",
+      "params": {
+        "num_leaves": 31,
+        "max_depth": 8,
+        "n_estimators": 120,
+        "learning_rate": 0.08,
+        "min_child_samples": 70
+      }
+    },
+    "XGB_6": {
+      "name": "XGB_6",
+      "family": "xgb",
+      "features": "mechanism",
+      "params": {
+        "max_depth": 6,
+        "n_estimators": 120,
+        "learning_rate": 0.085,
+        "min_child_weight": 12,
+        "subsample": 0.85,
+        "colsample_bytree": 0.85,
+        "reg_lambda": 4
+      }
+    },
+    "CAT_6": {
+      "name": "CAT_6",
+      "family": "cat",
+      "features": "cat",
+      "params": {
+        "depth": 6,
+        "iterations": 150,
+        "learning_rate": 0.1,
+        "l2_leaf_reg": 5
+      }
+    },
+    "LGB_cat": {
+      "name": "LGB_cat",
+      "family": "lgb",
+      "features": "cat",
+      "params": {
+        "num_leaves": 31,
+        "max_depth": 8,
+        "n_estimators": 120,
+        "learning_rate": 0.08,
+        "min_child_samples": 70
+      }
+    },
+    "LGB_63": {
+      "name": "LGB_63",
+      "family": "lgb",
+      "features": "mechanism",
+      "params": {
+        "num_leaves": 63,
+        "max_depth": 10,
+        "n_estimators": 160,
+        "learning_rate": 0.065,
+        "min_child_samples": 45
+      }
+    },
+    "LGB_200": {
+      "name": "LGB_200",
+      "family": "lgb",
+      "features": "no_ambiguous",
+      "params": {
+        "num_leaves": 31,
+        "max_depth": 8,
+        "n_estimators": 200,
+        "learning_rate": 0.05,
+        "min_child_samples": 60
+      }
+    },
+    "LGB_raw_change": {
+      "name": "LGB_raw_change",
+      "family": "lgb",
+      "features": "raw_change",
+      "params": {
+        "num_leaves": 31,
+        "max_depth": 8,
+        "n_estimators": 120,
+        "learning_rate": 0.08,
+        "min_child_samples": 70
+      }
+    },
+    "LGB_recent": {
+      "name": "LGB_recent",
+      "family": "lgb",
+      "features": "recent",
+      "params": {
+        "num_leaves": 31,
+        "max_depth": 7,
+        "n_estimators": 120,
+        "learning_rate": 0.08,
+        "min_child_samples": 80
+      }
+    },
+    "LGB_shallow": {
+      "name": "LGB_shallow",
+      "family": "lgb",
+      "features": "cat",
+      "params": {
+        "num_leaves": 15,
+        "max_depth": 5,
+        "n_estimators": 220,
+        "learning_rate": 0.06,
+        "min_child_samples": 100
+      }
+    },
+    "XGB_4": {
+      "name": "XGB_4",
+      "family": "xgb",
+      "features": "cat",
+      "params": {
+        "max_depth": 4,
+        "n_estimators": 180,
+        "learning_rate": 0.08,
+        "min_child_weight": 20,
+        "subsample": 0.9,
+        "colsample_bytree": 0.85,
+        "reg_lambda": 5
+      }
+    },
+    "ExtraTrees": {
+      "name": "ExtraTrees",
+      "family": "extra",
+      "features": "mechanism",
+      "params": {
+        "n_estimators": 80,
+        "max_depth": 14,
+        "min_samples_leaf": 25,
+        "max_features": 0.75
+      }
+    },
+    "LGB_plus": {
+      "name": "LGB_plus",
+      "family": "lgb",
+      "features": "plus",
+      "params": {
+        "num_leaves": 63,
+        "max_depth": 10,
+        "n_estimators": 220,
+        "learning_rate": 0.05,
+        "min_child_samples": 50
+      }
+    },
+    "LGB_500": {
+      "name": "LGB_500",
+      "family": "lgb",
+      "features": "mechanism",
+      "params": {
+        "num_leaves": 63,
+        "max_depth": 10,
+        "n_estimators": 400,
+        "learning_rate": 0.035,
+        "min_child_samples": 60
+      }
+    },
+    "LGB_no_life": {
+      "name": "LGB_no_life",
+      "family": "lgb",
+      "features": "no_lifetime",
+      "params": {
+        "num_leaves": 31,
+        "max_depth": 8,
+        "n_estimators": 160,
+        "learning_rate": 0.065,
+        "min_child_samples": 70
+      }
+    },
+    "LGB_raw_revenue": {
+      "name": "LGB_raw_revenue",
+      "family": "lgb",
+      "features": "raw_revenue",
+      "params": {
+        "num_leaves": 31,
+        "max_depth": 8,
+        "n_estimators": 120,
+        "learning_rate": 0.08,
+        "min_child_samples": 70
+      }
+    },
+    "LGB_revweighted": {
+      "name": "LGB_revweighted",
+      "family": "lgb",
+      "features": "mechanism",
+      "params": {
+        "num_leaves": 31,
+        "max_depth": 8,
+        "n_estimators": 160,
+        "learning_rate": 0.065,
+        "min_child_samples": 70
+      },
+      "weight": "sqrt_revenue"
+    },
+    "CAT_8": {
+      "name": "CAT_8",
+      "family": "cat",
+      "features": "cat",
+      "params": {
+        "depth": 8,
+        "iterations": 240,
+        "learning_rate": 0.065,
+        "l2_leaf_reg": 8
+      }
+    },
+    "HistGB": {
+      "name": "HistGB",
+      "family": "hist",
+      "features": "mechanism",
+      "params": {
+        "max_iter": 160,
+        "max_leaf_nodes": 31,
+        "learning_rate": 0.065,
+        "l2_regularization": 3,
+        "min_samples_leaf": 60
+      }
+    },
+    "MLP": {
+      "name": "MLP",
+      "family": "mlp",
+      "features": "mechanism",
+      "params": {
+        "hidden_layer_sizes": [
+          64,
+          32
+        ],
+        "alpha": 0.01,
+        "max_iter": 35,
+        "early_stopping": true,
+        "validation_fraction": 0.12,
+        "batch_size": 512,
+        "learning_rate_init": 0.001
+      }
+    },
+    "R3_AUC_bag": {
+      "name": "R3_AUC_bag",
+      "family": "lgb",
+      "features": "raw_change",
+      "params": {
+        "num_leaves": 31,
+        "max_depth": 8,
+        "n_estimators": 260,
+        "learning_rate": 0.045,
+        "min_child_samples": 60,
+        "reg_lambda": 8,
+        "feature_fraction": 0.7,
+        "bagging_fraction": 0.85,
+        "bagging_freq": 1
+      }
+    },
+    "R3_AUC_deep": {
+      "name": "R3_AUC_deep",
+      "family": "lgb",
+      "features": "raw_change",
+      "params": {
+        "num_leaves": 63,
+        "max_depth": 10,
+        "n_estimators": 240,
+        "learning_rate": 0.045,
+        "min_child_samples": 40,
+        "reg_lambda": 5,
+        "feature_fraction": 0.9
+      }
+    },
+    "R3_VALUE_bag": {
+      "name": "R3_VALUE_bag",
+      "family": "lgb",
+      "features": "no_lifetime",
+      "params": {
+        "num_leaves": 31,
+        "max_depth": 8,
+        "n_estimators": 260,
+        "learning_rate": 0.045,
+        "min_child_samples": 60,
+        "reg_lambda": 8,
+        "feature_fraction": 0.7,
+        "bagging_fraction": 0.85,
+        "bagging_freq": 1
+      }
+    },
+    "R3_VALUE_deep": {
+      "name": "R3_VALUE_deep",
+      "family": "lgb",
+      "features": "no_lifetime",
+      "params": {
+        "num_leaves": 63,
+        "max_depth": 10,
+        "n_estimators": 240,
+        "learning_rate": 0.045,
+        "min_child_samples": 40,
+        "reg_lambda": 5,
+        "feature_fraction": 0.9
+      }
+    }
+  },
+  "selection": "shortlist top3 raw exposure, top AUC and C01; inner calibration holdout; highest calibrated mean CV exposure alpha=1 with guardrails; internal validation not used"
+}

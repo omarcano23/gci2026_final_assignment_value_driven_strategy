@@ -1,0 +1,19 @@
+{
+  "name": "Q0062",
+  "weights": {
+    "P072": 0.8,
+    "expert_nolife": 0.19999999999999996
+  },
+  "cv_auc": 0.695629995576259,
+  "cv_exposure": 136.81079331905565,
+  "cv_sd": 7.516769931856242,
+  "source": "C05 search / C04 OOF",
+  "train_n": 52500,
+  "baseline": "B1_revenue",
+  "alpha": 1,
+  "prior": 0.01,
+  "k": 0.05,
+  "calibration": "component OOF train; arithmetic mixture if applicable",
+  "selection": "maximum mean CV exposure among shortlisted with guardrails; no selection from internal validation",
+  "status": "proposed; gate required; reserve unopened"
+}

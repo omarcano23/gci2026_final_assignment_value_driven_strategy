@@ -1,0 +1,73 @@
+{
+  "change_mou": {
+    "n": 68187,
+    "corr_absolute": 0.9123884795306914,
+    "corr_percentage": 0.1178596137709077,
+    "sign_match_absolute": 0.9888981770718759
+  },
+  "change_rev": {
+    "n": 69370,
+    "corr_absolute": 0.961294225968443,
+    "corr_percentage": 0.41315902124741294,
+    "sign_match_absolute": 0.8314977656047283
+  },
+  "failure_ratio": {
+    "valid_n": 55130,
+    "above_one_before_filter": 0
+  },
+  "device_age_vs_tenure_approx": {
+    "older_than_months_x31": 3598
+  },
+  "id_order_diagnostic": [
+    {
+      "decile": 1,
+      "n": 7000,
+      "churn": 0.4898571428571429
+    },
+    {
+      "decile": 2,
+      "n": 7000,
+      "churn": 0.5201428571428571
+    },
+    {
+      "decile": 3,
+      "n": 7000,
+      "churn": 0.4908571428571429
+    },
+    {
+      "decile": 4,
+      "n": 7000,
+      "churn": 0.5044285714285714
+    },
+    {
+      "decile": 5,
+      "n": 7000,
+      "churn": 0.5282857142857142
+    },
+    {
+      "decile": 6,
+      "n": 7000,
+      "churn": 0.5545714285714286
+    },
+    {
+      "decile": 7,
+      "n": 7000,
+      "churn": 0.5314285714285715
+    },
+    {
+      "decile": 8,
+      "n": 7000,
+      "churn": 0.5068571428571429
+    },
+    {
+      "decile": 9,
+      "n": 7000,
+      "churn": 0.4554285714285714
+    },
+    {
+      "decile": 10,
+      "n": 7000,
+      "churn": 0.3742857142857143
+    }
+  ]
+}

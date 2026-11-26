@@ -1,0 +1,28 @@
+{
+  "n": 70000,
+  "columns": 100,
+  "target_1": 34693,
+  "target_0": 35307,
+  "churn_share": 0.49561428571428573,
+  "missing_cells": 240660,
+  "complete_rows": 18604,
+  "missing_cols": 43,
+  "revenue_missing": 262,
+  "negative_revenue": 4,
+  "zero_revenue": 9,
+  "negative_equipment": 104,
+  "zero_attempts": 5755,
+  "active_gt_unique": 0,
+  "revenue_positive_sum": 4102640.044166657,
+  "churn_revenue_positive_sum": 2010716.167500006,
+  "revenue_known_mean": 58.829071154415914,
+  "hashes": {
+    "Client": "264a58512dc857fff29e11ef43fd53bc4407be23aac9dcc2c0df23536c800778",
+    "Record": "5bd563bb77b357920832510b78d6842060d928cb5de8c0aaf79aa2a647e2271a"
+  },
+  "manifest_sha256": "c894e695d999a2da8f1dcf13ed7853f50c2356aeb7b28f855c79e5de452fb494",
+  "reserve": "not parsed except IDs for selection; bytes hashed for integrity; prior aggregate inspection F3",
+  "python": "3.13.5",
+  "pandas": "2.2.3",
+  "numpy": "2.3.5"
+}

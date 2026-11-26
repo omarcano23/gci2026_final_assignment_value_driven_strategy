@@ -1,0 +1,36 @@
+{
+  "Client": {
+    "rows": 100000,
+    "cols": 50,
+    "duplicate_ids": 0,
+    "missing_id": 0,
+    "duplicate_rows": 0,
+    "sha256": "264a58512dc857fff29e11ef43fd53bc4407be23aac9dcc2c0df23536c800778"
+  },
+  "Record": {
+    "rows": 100000,
+    "cols": 51,
+    "duplicate_ids": 0,
+    "missing_id": 0,
+    "duplicate_rows": 0,
+    "sha256": "5bd563bb77b357920832510b78d6842060d928cb5de8c0aaf79aa2a647e2271a"
+  },
+  "unmatched_client": 0,
+  "unmatched_record": 0,
+  "merged": {
+    "rows": 100000,
+    "columns": 100,
+    "churn_1": 49562,
+    "churn_0": 50438,
+    "missing_cells": 342969,
+    "complete_rows": 26705,
+    "columns_with_missing": 43,
+    "negative_rev": 5,
+    "negative_eqpdays": 133,
+    "zero_attempt": 8160,
+    "active_gt_unique": 0,
+    "revenue_observed": 99643,
+    "revenue_sum_raw": 5851035.450000222,
+    "revenue_churn_raw": 2870795.533333365
+  }
+}

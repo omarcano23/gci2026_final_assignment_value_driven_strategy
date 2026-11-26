@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "checks": [
+    "source SHA256 matches F3",
+    "unique development IDs both tables and 1:1 join",
+    "target binary complete",
+    "all nine segment partitions reconcile count, churn and exposure",
+    "rule denominators and overlap diagonal reconcile",
+    "split matches F3 algorithm and disjoint sizes"
+  ],
+  "limitations": "Arithmetic and provenance only; not validation of commercial assumptions or temporal leakage."
+}

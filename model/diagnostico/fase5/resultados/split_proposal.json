@@ -1,0 +1,9 @@
+{
+  "seed": 20261125,
+  "method": "stratified random on ID-sorted development only",
+  "train_n": 52500,
+  "validation_n": 17500,
+  "train_ids_sha256": "fe261cba18a83b2991e2a9e21ed60785f2ce3dd3dece2a6d0ba6e009796c40e3",
+  "validation_ids_sha256": "c2885136ac427055b683e4779920bcc2c2e482371a815e118a38c7ef1bbfa1bd",
+  "note": "proposed reuse of exact F3 algorithm, ID order, seed and labels; all development labels already explored; not clean holdout"
+}

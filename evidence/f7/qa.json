@@ -1,0 +1,9 @@
+{
+  "validation_n": 17500,
+  "eligible_n": 17426,
+  "bitwise": true,
+  "hashes": 19,
+  "scope": "internal development validation only",
+  "primary_reconciliation": 152.4040815931554,
+  "shapley": "128 weighted draws per scope with replacement; 2 empirical backgrounds; exact 32 coalitions per pair; full calibrated model; hybrid dependence limitations"
+}

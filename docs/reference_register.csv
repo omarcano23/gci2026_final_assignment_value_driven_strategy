@@ -1,0 +1,31 @@
+id,autor,titulo,fecha_publicacion,url_o_ruta,fecha_consulta,geografia,uso,slide,estado
+B-001,GCI,Final Assignment README,,ZIP oficial/Final Assignment/README.docx,2026-11-25,,requisitos internos,,verificada
+B-002,GCI,Practical Guide & Examples,,PDF adjunto,2026-11-25,,metodología interna,,verificada
+B-003,GCI,Company A Dataset Overview,2026,ZIP oficial/Final Assignment/ENG_Company _A_ Dataset Overview.docx,2026-11-25,sin confirmar,diccionario y horizonte,S03,verificada para alcance indicado
+B-004,GCI,Final Assignment Tutorial — Telecom,2026,ZIP oficial/Final Assignment/tutorial.ipynb,2026-11-25,sin confirmar,contexto y restricciones,S03,verificada para alcance indicado
+B-005,GSMA Intelligence,The Mobile Economy 2026,2026,https://www.gsmaintelligence.com/research/the-mobile-economy-2026,2026-11-25,global,5.8 mil millones de suscriptores y 8.8 mil millones de conexiones,S02,verificada para alcance indicado
+B-006,CTIA,2025 Annual Survey Highlights,2025,https://www.ctia.org/news/2025-annual-survey-highlights,2026-11-25,EEUU,579 millones conexiones en 2024,S02,verificada para alcance indicado
+B-007,CTIA,2024 Annual Survey Highlights,2024,https://www.ctia.org/news/2024-annual-survey-highlights,2026-11-25,EEUU,558 millones conexiones en 2023,S02,verificada para alcance indicado
+B-008,T-Mobile US,2025 Form 10-K,2026,https://www.sec.gov/Archives/edgar/data/1283699/000128369926000010/tmus-20251231.htm,2026-11-25,EEUU,"competencia, churn, ARPU y ARPA",S02,verificada para alcance indicado
+B-009,AT&T,2025 Form 10-K,2026,https://www.sec.gov/Archives/edgar/data/732717/000073271726000120/t-20251231.htm,2026-11-25,EEUU,churn y drivers comerciales,S02,verificada para alcance indicado
+B-010,FCC,Consumer complaints / number portability,s.f.,https://consumercomplaints.fcc.gov/hc/en-us?return_to=%2Fhc%2Frequests,2026-11-25,EEUU,portabilidad,S02,verificada para alcance indicado
+B-011,FCC,Privacy Complaints,s.f.,https://consumercomplaints.fcc.gov/hc/en-us/articles/8824334151572-Privacy-Complaints,2026-11-25,EEUU,protección de CPNI,S03,verificada para alcance indicado
+B-012,GCI,Client.csv and Record.csv,sin fecha,ZIP oficial/Final Assignment/telecom/,2026-11-25,etiquetas EEUU,esquema y etiquetas geográficas,S03,verificada para alcance indicado
+B-013,GSMA,The Mobile Economy 2026 report,2026,https://www.gsma.com/solutions-and-impact/connectivity-for-good/mobile-economy/wp-content/uploads/2026/02/The-Mobile-Economy-2026.pdf,2026-11-25,global,contribución PIB 2025 y proyección 2030 (extracto indexado; no candidato final hasta cotejo),S02,contexto preliminar
+B-014,Empulse,Cell2Cell Customer Churn,s.f.,https://empulse.readthedocs.io/en/latest/guide/datasets/cell2cell.html,2026-11-25,EEUU,"posible familia de datos, no prueba de identidad; no usar datos externos",,contexto preliminar
+B-015,CTIA,Wireless Affordability Tracker,2026,https://www.ctia.org/news/more-for-less-the-wireless-affordability-tracker,2026-11-25,EEUU,presión de precios / CPI nominal 2025,S02,verificada para alcance indicado
+B-016,CTIA,2021 Annual Survey Highlights,2021,https://www.ctia.org/news/2021-annual-survey-highlights,2026-11-25,EEUU,469M en 2020,S02,verificada para alcance indicado
+B-017,CTIA,2022 Annual Survey Highlights,2022,https://www.ctia.org/news/2022-annual-survey-highlights,2026-11-25,EEUU,499M en 2021; serie en informe https://api.ctia.org/wp-content/uploads/2022/09/2022-Annual-Survey.pdf,S02,verificada para alcance indicado
+B-018,CTIA,2023 Annual Survey Highlights,2023,https://www.ctia.org/news/2023-annual-survey-highlights,2026-11-25,EEUU,523M en 2022,S02,verificada para alcance indicado
+B-019,CTIA,5G in America,2026,https://www.ctia.org/the-wireless-industry/5g-in-america,2026-11-25,EEUU,603M en 2025,S02,verificada para alcance indicado
+B-020,CTIA,2026 Annual Survey press release,2026-09-09,https://www.prnewswire.com/news-releases/americans-used-more-wireless-data-in-2025-than-in-the-entire-4g-decade-ctia-annual-survey-finds-302873477.html,2026-11-25,EEUU,+20% tráfico; ~30bn inversión; 2026 highlights https://www.ctia.org/news/2026-annual-survey-highlights,S02,verificada para alcance indicado
+B-021,T-Mobile,IntentCX announcement,2024-09-18,https://www.t-mobile.com/news/business/t-mobile-launches-intentcx-with-openai,2026-11-25,EEUU,anuncio IA; no resultado,S02,verificada para alcance indicado
+B-022,Godinho de Matos et al.,Target the Ego or Target the Group,2018,https://doi.org/10.1287/mksc.2018.1099,2026-11-25,Telecom,"ITT -1.9 pp, not conditional effect",,external; transfer limitations documented
+B-023,Ascarza et al.,The Perils of Proactive Churn Prevention Using Plan Recommendations,2016,https://doi.org/10.1509/jmr.13.0483,2026-11-25,Telecom,adverse treatment effect,,external; transfer limitations documented
+B-024,Brynjolfsson et al.,Generative AI at Work,2025,https://doi.org/10.1093/qje/qjae044,2026-11-25,Customer support,learning and productivity; not A adoption rate,,external; transfer limitations documented
+B-025,NIST,AI RMF Measure playbook,,https://airc.nist.gov/airmf-resources/playbook/measure/,2026-11-25,General,drift monitoring; not numeric decay assumption,,external; transfer limitations documented
+B-F7-01,Kohavi et al.,Online randomized controlled experiments at scale: lessons and extensions to medicine,2020,https://pmc.ncbi.nlm.nih.gov/articles/PMC7007661/,2026-11-25,general,randomization and SRM,S125,verified; design only
+B-F9-01,"Ascarza, E.",Retention Futility: Targeting High-Risk Customers Might Be Ineffective,2018,https://doi.org/10.1509/jmr.16.0163,2026-11-25,general,risk is not treatment response,S06/S14,inherited source
+B-F9-02,ACCA,Relevant costs,,https://www.accaglobal.com/gb/en/student/exam-support-resources/fundamentals-exams-study-resources/f5/technical-articles/relevant-costs.html,2026-11-25,general,incremental cost framework,S12/S13,inherited source
+B-F9-03,Ke et al.,LightGBM: A Highly Efficient Gradient Boosting Decision Tree,2017,https://papers.nips.cc/paper/6907-lightgbm-a-highly-efficient-gradient-boosting-decision-tree,,general,model method,S08,method reference
+B-F9-04,scikit-learn,Probability calibration,,https://scikit-learn.org/stable/modules/calibration.html,,general,OOF calibration,S08,method reference

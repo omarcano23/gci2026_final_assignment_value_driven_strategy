@@ -1,0 +1,65 @@
+{
+  "P072": {
+    "names": [
+      "LGB_no_life",
+      "sector_select25"
+    ],
+    "weights": {
+      "LGB_no_life": 0.5,
+      "sector_select25": 0.5
+    },
+    "configs": {
+      "LGB_no_life": {
+        "name": "LGB_no_life",
+        "family": "lgb",
+        "features": "no_lifetime",
+        "params": {
+          "num_leaves": 31,
+          "max_depth": 8,
+          "n_estimators": 160,
+          "learning_rate": 0.065,
+          "min_child_samples": 70
+        }
+      },
+      "sector_select25": {
+        "name": "sector_select25",
+        "family": "lgb",
+        "features": "sector04_clean",
+        "params": {
+          "num_leaves": 31,
+          "max_depth": 8,
+          "n_estimators": 160,
+          "learning_rate": 0.07,
+          "min_child_samples": 65,
+          "reg_lambda": 7,
+          "feature_fraction": 0.8,
+          "bagging_fraction": 0.85,
+          "bagging_freq": 1
+        },
+        "select": 25
+      }
+    },
+    "method": "Platt"
+  },
+  "expert_nolife": {
+    "configs": {
+      "expert_nolife": {
+        "name": "expert_nolife",
+        "family": "lgb",
+        "features": "expert_nolife",
+        "params": {
+          "num_leaves": 31,
+          "max_depth": 8,
+          "n_estimators": 120,
+          "learning_rate": 0.08,
+          "min_child_samples": 65,
+          "reg_lambda": 7,
+          "feature_fraction": 0.8,
+          "bagging_fraction": 0.85,
+          "bagging_freq": 1
+        }
+      }
+    },
+    "method": "Platt"
+  }
+}

@@ -1,0 +1,1813 @@
+[
+  {
+    "policy_id": "P000",
+    "weights": {
+      "C01_Tdeep": 1.0
+    },
+    "alpha": 1,
+    "tag": "single"
+  },
+  {
+    "policy_id": "P001",
+    "weights": {
+      "LGB_mech": 1.0
+    },
+    "alpha": 1,
+    "tag": "single"
+  },
+  {
+    "policy_id": "P002",
+    "weights": {
+      "XGB_6": 1.0
+    },
+    "alpha": 1,
+    "tag": "single"
+  },
+  {
+    "policy_id": "P003",
+    "weights": {
+      "CAT_6": 1.0
+    },
+    "alpha": 1,
+    "tag": "single"
+  },
+  {
+    "policy_id": "P004",
+    "weights": {
+      "LGB_cat": 1.0
+    },
+    "alpha": 1,
+    "tag": "single"
+  },
+  {
+    "policy_id": "P005",
+    "weights": {
+      "LGB_63": 1.0
+    },
+    "alpha": 1,
+    "tag": "single"
+  },
+  {
+    "policy_id": "P006",
+    "weights": {
+      "LGB_200": 1.0
+    },
+    "alpha": 1,
+    "tag": "single"
+  },
+  {
+    "policy_id": "P007",
+    "weights": {
+      "LGB_raw_change": 1.0
+    },
+    "alpha": 1,
+    "tag": "single"
+  },
+  {
+    "policy_id": "P008",
+    "weights": {
+      "LGB_recent": 1.0
+    },
+    "alpha": 1,
+    "tag": "single"
+  },
+  {
+    "policy_id": "P009",
+    "weights": {
+      "LGB_shallow": 1.0
+    },
+    "alpha": 1,
+    "tag": "single"
+  },
+  {
+    "policy_id": "P010",
+    "weights": {
+      "XGB_4": 1.0
+    },
+    "alpha": 1,
+    "tag": "single"
+  },
+  {
+    "policy_id": "P011",
+    "weights": {
+      "ExtraTrees": 1.0
+    },
+    "alpha": 1,
+    "tag": "single"
+  },
+  {
+    "policy_id": "P012",
+    "weights": {
+      "LGB_plus": 1.0
+    },
+    "alpha": 1,
+    "tag": "single"
+  },
+  {
+    "policy_id": "P013",
+    "weights": {
+      "LGB_500": 1.0
+    },
+    "alpha": 1,
+    "tag": "single"
+  },
+  {
+    "policy_id": "P014",
+    "weights": {
+      "LGB_no_life": 1.0
+    },
+    "alpha": 1,
+    "tag": "single"
+  },
+  {
+    "policy_id": "P015",
+    "weights": {
+      "LGB_raw_revenue": 1.0
+    },
+    "alpha": 1,
+    "tag": "single"
+  },
+  {
+    "policy_id": "P016",
+    "weights": {
+      "LGB_revweighted": 1.0
+    },
+    "alpha": 1,
+    "tag": "single"
+  },
+  {
+    "policy_id": "P017",
+    "weights": {
+      "CAT_8": 1.0
+    },
+    "alpha": 1,
+    "tag": "single"
+  },
+  {
+    "policy_id": "P018",
+    "weights": {
+      "HistGB": 1.0
+    },
+    "alpha": 1,
+    "tag": "single"
+  },
+  {
+    "policy_id": "P019",
+    "weights": {
+      "MLP": 1.0
+    },
+    "alpha": 1,
+    "tag": "single"
+  },
+  {
+    "policy_id": "P020",
+    "weights": {
+      "R3_AUC_bag": 1.0
+    },
+    "alpha": 1,
+    "tag": "single"
+  },
+  {
+    "policy_id": "P021",
+    "weights": {
+      "R3_AUC_deep": 1.0
+    },
+    "alpha": 1,
+    "tag": "single"
+  },
+  {
+    "policy_id": "P022",
+    "weights": {
+      "R3_VALUE_bag": 1.0
+    },
+    "alpha": 1,
+    "tag": "single"
+  },
+  {
+    "policy_id": "P023",
+    "weights": {
+      "R3_VALUE_deep": 1.0
+    },
+    "alpha": 1,
+    "tag": "single"
+  },
+  {
+    "policy_id": "P024",
+    "weights": {
+      "sector_clean": 1.0
+    },
+    "alpha": 1,
+    "tag": "single"
+  },
+  {
+    "policy_id": "P025",
+    "weights": {
+      "sector_raw": 1.0
+    },
+    "alpha": 1,
+    "tag": "single"
+  },
+  {
+    "policy_id": "P026",
+    "weights": {
+      "sector_nolife": 1.0
+    },
+    "alpha": 1,
+    "tag": "single"
+  },
+  {
+    "policy_id": "P027",
+    "weights": {
+      "sector_deep": 1.0
+    },
+    "alpha": 1,
+    "tag": "single"
+  },
+  {
+    "policy_id": "P028",
+    "weights": {
+      "sector_goss": 1.0
+    },
+    "alpha": 1,
+    "tag": "single"
+  },
+  {
+    "policy_id": "P029",
+    "weights": {
+      "sector_select25": 1.0
+    },
+    "alpha": 1,
+    "tag": "single"
+  },
+  {
+    "policy_id": "P030",
+    "weights": {
+      "sector_select55": 1.0
+    },
+    "alpha": 1,
+    "tag": "single"
+  },
+  {
+    "policy_id": "P031",
+    "weights": {
+      "sector_select90": 1.0
+    },
+    "alpha": 1,
+    "tag": "single"
+  },
+  {
+    "policy_id": "P032",
+    "weights": {
+      "sector_xgb": 1.0
+    },
+    "alpha": 1,
+    "tag": "single"
+  },
+  {
+    "policy_id": "P033",
+    "weights": {
+      "sector_cat": 1.0
+    },
+    "alpha": 1,
+    "tag": "single"
+  },
+  {
+    "policy_id": "P034",
+    "weights": {
+      "sector_spline": 1.0
+    },
+    "alpha": 1,
+    "tag": "single"
+  },
+  {
+    "policy_id": "P035",
+    "weights": {
+      "sector_DART": 1.0
+    },
+    "alpha": 1,
+    "tag": "single"
+  },
+  {
+    "policy_id": "P036",
+    "weights": {
+      "LGB_raw_change": 0.3333333333333333,
+      "R3_AUC_bag": 0.3333333333333333,
+      "R3_AUC_deep": 0.3333333333333333
+    },
+    "alpha": 1,
+    "tag": "C02_reference"
+  },
+  {
+    "policy_id": "P037",
+    "weights": {
+      "R3_VALUE_bag": 0.3333333333333333,
+      "sector_raw": 0.3333333333333333,
+      "sector_select25": 0.3333333333333333
+    },
+    "alpha": 1,
+    "tag": "equal_mean"
+  },
+  {
+    "policy_id": "P038",
+    "weights": {
+      "R3_AUC_bag": 0.2,
+      "R3_VALUE_bag": 0.2,
+      "sector_deep": 0.2,
+      "sector_raw": 0.2,
+      "sector_select25": 0.2
+    },
+    "alpha": 1,
+    "tag": "equal_mean"
+  },
+  {
+    "policy_id": "P039",
+    "weights": {
+      "LGB_no_life": 0.3333333333333333,
+      "R3_VALUE_bag": 0.3333333333333333,
+      "sector_select25": 0.3333333333333333
+    },
+    "alpha": 1,
+    "tag": "equal_mean"
+  },
+  {
+    "policy_id": "P040",
+    "weights": {
+      "HistGB": 0.2,
+      "LGB_no_life": 0.2,
+      "R3_VALUE_bag": 0.2,
+      "sector_select25": 0.2,
+      "sector_select55": 0.2
+    },
+    "alpha": 1,
+    "tag": "equal_mean"
+  },
+  {
+    "policy_id": "P041",
+    "weights": {
+      "sector_raw": 0.25,
+      "sector_select25": 0.75
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P042",
+    "weights": {
+      "sector_raw": 0.5,
+      "sector_select25": 0.5
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P043",
+    "weights": {
+      "sector_raw": 0.75,
+      "sector_select25": 0.25
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P044",
+    "weights": {
+      "R3_VALUE_bag": 0.75,
+      "sector_raw": 0.25
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P045",
+    "weights": {
+      "R3_VALUE_bag": 0.5,
+      "sector_raw": 0.5
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P046",
+    "weights": {
+      "R3_VALUE_bag": 0.25,
+      "sector_raw": 0.75
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P047",
+    "weights": {
+      "sector_deep": 0.75,
+      "sector_raw": 0.25
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P048",
+    "weights": {
+      "sector_deep": 0.5,
+      "sector_raw": 0.5
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P049",
+    "weights": {
+      "sector_deep": 0.25,
+      "sector_raw": 0.75
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P050",
+    "weights": {
+      "R3_AUC_bag": 0.75,
+      "sector_raw": 0.25
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P051",
+    "weights": {
+      "R3_AUC_bag": 0.5,
+      "sector_raw": 0.5
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P052",
+    "weights": {
+      "R3_AUC_bag": 0.25,
+      "sector_raw": 0.75
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P053",
+    "weights": {
+      "LGB_no_life": 0.75,
+      "sector_raw": 0.25
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P054",
+    "weights": {
+      "LGB_no_life": 0.5,
+      "sector_raw": 0.5
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P055",
+    "weights": {
+      "LGB_no_life": 0.25,
+      "sector_raw": 0.75
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P056",
+    "weights": {
+      "HistGB": 0.75,
+      "sector_raw": 0.25
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P057",
+    "weights": {
+      "HistGB": 0.5,
+      "sector_raw": 0.5
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P058",
+    "weights": {
+      "HistGB": 0.25,
+      "sector_raw": 0.75
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P059",
+    "weights": {
+      "sector_raw": 0.25,
+      "sector_select55": 0.75
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P060",
+    "weights": {
+      "sector_raw": 0.5,
+      "sector_select55": 0.5
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P061",
+    "weights": {
+      "sector_raw": 0.75,
+      "sector_select55": 0.25
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P062",
+    "weights": {
+      "R3_VALUE_bag": 0.75,
+      "sector_select25": 0.25
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P063",
+    "weights": {
+      "R3_VALUE_bag": 0.5,
+      "sector_select25": 0.5
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P064",
+    "weights": {
+      "R3_VALUE_bag": 0.25,
+      "sector_select25": 0.75
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P065",
+    "weights": {
+      "sector_deep": 0.75,
+      "sector_select25": 0.25
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P066",
+    "weights": {
+      "sector_deep": 0.5,
+      "sector_select25": 0.5
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P067",
+    "weights": {
+      "sector_deep": 0.25,
+      "sector_select25": 0.75
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P068",
+    "weights": {
+      "R3_AUC_bag": 0.75,
+      "sector_select25": 0.25
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P069",
+    "weights": {
+      "R3_AUC_bag": 0.5,
+      "sector_select25": 0.5
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P070",
+    "weights": {
+      "R3_AUC_bag": 0.25,
+      "sector_select25": 0.75
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P071",
+    "weights": {
+      "LGB_no_life": 0.75,
+      "sector_select25": 0.25
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P072",
+    "weights": {
+      "LGB_no_life": 0.5,
+      "sector_select25": 0.5
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P073",
+    "weights": {
+      "LGB_no_life": 0.25,
+      "sector_select25": 0.75
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P074",
+    "weights": {
+      "HistGB": 0.75,
+      "sector_select25": 0.25
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P075",
+    "weights": {
+      "HistGB": 0.5,
+      "sector_select25": 0.5
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P076",
+    "weights": {
+      "HistGB": 0.25,
+      "sector_select25": 0.75
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P077",
+    "weights": {
+      "sector_select25": 0.25,
+      "sector_select55": 0.75
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P078",
+    "weights": {
+      "sector_select25": 0.5,
+      "sector_select55": 0.5
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P079",
+    "weights": {
+      "sector_select25": 0.75,
+      "sector_select55": 0.25
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P080",
+    "weights": {
+      "R3_VALUE_bag": 0.25,
+      "sector_deep": 0.75
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P081",
+    "weights": {
+      "R3_VALUE_bag": 0.5,
+      "sector_deep": 0.5
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P082",
+    "weights": {
+      "R3_VALUE_bag": 0.75,
+      "sector_deep": 0.25
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P083",
+    "weights": {
+      "R3_AUC_bag": 0.75,
+      "R3_VALUE_bag": 0.25
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P084",
+    "weights": {
+      "R3_AUC_bag": 0.5,
+      "R3_VALUE_bag": 0.5
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P085",
+    "weights": {
+      "R3_AUC_bag": 0.25,
+      "R3_VALUE_bag": 0.75
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P086",
+    "weights": {
+      "LGB_no_life": 0.75,
+      "R3_VALUE_bag": 0.25
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P087",
+    "weights": {
+      "LGB_no_life": 0.5,
+      "R3_VALUE_bag": 0.5
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P088",
+    "weights": {
+      "LGB_no_life": 0.25,
+      "R3_VALUE_bag": 0.75
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P089",
+    "weights": {
+      "HistGB": 0.75,
+      "R3_VALUE_bag": 0.25
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P090",
+    "weights": {
+      "HistGB": 0.5,
+      "R3_VALUE_bag": 0.5
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P091",
+    "weights": {
+      "HistGB": 0.25,
+      "R3_VALUE_bag": 0.75
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P092",
+    "weights": {
+      "R3_VALUE_bag": 0.25,
+      "sector_select55": 0.75
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P093",
+    "weights": {
+      "R3_VALUE_bag": 0.5,
+      "sector_select55": 0.5
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P094",
+    "weights": {
+      "R3_VALUE_bag": 0.75,
+      "sector_select55": 0.25
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P095",
+    "weights": {
+      "R3_AUC_bag": 0.75,
+      "sector_deep": 0.25
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P096",
+    "weights": {
+      "R3_AUC_bag": 0.5,
+      "sector_deep": 0.5
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P097",
+    "weights": {
+      "R3_AUC_bag": 0.25,
+      "sector_deep": 0.75
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P098",
+    "weights": {
+      "LGB_no_life": 0.75,
+      "sector_deep": 0.25
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P099",
+    "weights": {
+      "LGB_no_life": 0.5,
+      "sector_deep": 0.5
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P100",
+    "weights": {
+      "LGB_no_life": 0.25,
+      "sector_deep": 0.75
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P101",
+    "weights": {
+      "HistGB": 0.75,
+      "sector_deep": 0.25
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P102",
+    "weights": {
+      "HistGB": 0.5,
+      "sector_deep": 0.5
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P103",
+    "weights": {
+      "HistGB": 0.25,
+      "sector_deep": 0.75
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P104",
+    "weights": {
+      "sector_deep": 0.25,
+      "sector_select55": 0.75
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P105",
+    "weights": {
+      "sector_deep": 0.5,
+      "sector_select55": 0.5
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P106",
+    "weights": {
+      "sector_deep": 0.75,
+      "sector_select55": 0.25
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P107",
+    "weights": {
+      "LGB_no_life": 0.75,
+      "R3_AUC_bag": 0.25
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P108",
+    "weights": {
+      "LGB_no_life": 0.5,
+      "R3_AUC_bag": 0.5
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P109",
+    "weights": {
+      "LGB_no_life": 0.25,
+      "R3_AUC_bag": 0.75
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P110",
+    "weights": {
+      "HistGB": 0.75,
+      "R3_AUC_bag": 0.25
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P111",
+    "weights": {
+      "HistGB": 0.5,
+      "R3_AUC_bag": 0.5
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P112",
+    "weights": {
+      "HistGB": 0.25,
+      "R3_AUC_bag": 0.75
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P113",
+    "weights": {
+      "R3_AUC_bag": 0.25,
+      "sector_select55": 0.75
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P114",
+    "weights": {
+      "R3_AUC_bag": 0.5,
+      "sector_select55": 0.5
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P115",
+    "weights": {
+      "R3_AUC_bag": 0.75,
+      "sector_select55": 0.25
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P116",
+    "weights": {
+      "HistGB": 0.75,
+      "LGB_no_life": 0.25
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P117",
+    "weights": {
+      "HistGB": 0.5,
+      "LGB_no_life": 0.5
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P118",
+    "weights": {
+      "HistGB": 0.25,
+      "LGB_no_life": 0.75
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P119",
+    "weights": {
+      "LGB_no_life": 0.25,
+      "sector_select55": 0.75
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P120",
+    "weights": {
+      "LGB_no_life": 0.5,
+      "sector_select55": 0.5
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P121",
+    "weights": {
+      "LGB_no_life": 0.75,
+      "sector_select55": 0.25
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P122",
+    "weights": {
+      "HistGB": 0.25,
+      "sector_select55": 0.75
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P123",
+    "weights": {
+      "HistGB": 0.5,
+      "sector_select55": 0.5
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P124",
+    "weights": {
+      "HistGB": 0.75,
+      "sector_select55": 0.25
+    },
+    "alpha": 1,
+    "tag": "pair"
+  },
+  {
+    "policy_id": "P125",
+    "weights": {
+      "HistGB": 0.27115939071996126,
+      "sector_deep": 0.45838490042173613,
+      "sector_nolife": 0.2704557088583027
+    },
+    "alpha": 1,
+    "tag": "random_mix"
+  },
+  {
+    "policy_id": "P126",
+    "weights": {
+      "LGB_no_life": 0.10042996594849762,
+      "sector_cat": 0.03844897238794602,
+      "sector_clean": 0.2516664990284492,
+      "sector_nolife": 0.40723001029315314,
+      "sector_select55": 0.20222455234195413
+    },
+    "alpha": 1,
+    "tag": "random_mix"
+  },
+  {
+    "policy_id": "P127",
+    "weights": {
+      "LGB_no_life": 0.5609195683173782,
+      "R3_AUC_deep": 0.43908043168262173
+    },
+    "alpha": 1,
+    "tag": "random_mix"
+  },
+  {
+    "policy_id": "P128",
+    "weights": {
+      "sector_deep": 0.5289151410232963,
+      "sector_nolife": 0.1529441605731865,
+      "sector_select55": 0.2226137510019148,
+      "sector_select90": 0.09552694740160242
+    },
+    "alpha": 1,
+    "tag": "random_mix"
+  },
+  {
+    "policy_id": "P129",
+    "weights": {
+      "HistGB": 0.19529456037091228,
+      "sector_clean": 0.4155822454991799,
+      "sector_deep": 0.15174698737058195,
+      "sector_select55": 0.2373762067593259
+    },
+    "alpha": 1,
+    "tag": "random_mix"
+  },
+  {
+    "policy_id": "P130",
+    "weights": {
+      "LGB_no_life": 0.021615433520180072,
+      "R3_AUC_deep": 0.3903879930750444,
+      "sector_cat": 0.20210592440740976,
+      "sector_nolife": 0.2004152554091366,
+      "sector_select90": 0.18547539358822915
+    },
+    "alpha": 1,
+    "tag": "random_mix"
+  },
+  {
+    "policy_id": "P131",
+    "weights": {
+      "HistGB": 0.6862569725911726,
+      "sector_select25": 0.31374302740882737
+    },
+    "alpha": 1,
+    "tag": "random_mix"
+  },
+  {
+    "policy_id": "P132",
+    "weights": {
+      "HistGB": 0.5747843198430839,
+      "sector_clean": 0.11703133178597694,
+      "sector_nolife": 0.09705538936547944,
+      "sector_select55": 0.21112895900545983
+    },
+    "alpha": 1,
+    "tag": "random_mix"
+  },
+  {
+    "policy_id": "P133",
+    "weights": {
+      "HistGB": 0.12094709584270952,
+      "R3_VALUE_bag": 0.3194449653256137,
+      "sector_nolife": 0.2213589536657231,
+      "sector_select25": 0.15437523405929424,
+      "sector_xgb": 0.18387375110665954
+    },
+    "alpha": 1,
+    "tag": "random_mix"
+  },
+  {
+    "policy_id": "P134",
+    "weights": {
+      "LGB_no_life": 0.25543941247161656,
+      "sector_cat": 0.17412706911400588,
+      "sector_select90": 0.31480584879808327,
+      "sector_xgb": 0.25562766961629424
+    },
+    "alpha": 1,
+    "tag": "random_mix"
+  },
+  {
+    "policy_id": "P135",
+    "weights": {
+      "LGB_no_life": 0.552429764828318,
+      "sector_xgb": 0.4475702351716821
+    },
+    "alpha": 1,
+    "tag": "random_mix"
+  },
+  {
+    "policy_id": "P136",
+    "weights": {
+      "HistGB": 0.04993583432236003,
+      "R3_AUC_bag": 0.406305424412971,
+      "sector_deep": 0.1053756732241627,
+      "sector_select90": 0.355127534482699,
+      "sector_xgb": 0.08325553355780721
+    },
+    "alpha": 1,
+    "tag": "random_mix"
+  },
+  {
+    "policy_id": "P137",
+    "weights": {
+      "R3_VALUE_bag": 0.4631627001675158,
+      "sector_xgb": 0.5368372998324842
+    },
+    "alpha": 1,
+    "tag": "random_mix"
+  },
+  {
+    "policy_id": "P138",
+    "weights": {
+      "R3_AUC_deep": 0.17252649308237425,
+      "sector_select55": 0.8274735069176258
+    },
+    "alpha": 1,
+    "tag": "random_mix"
+  },
+  {
+    "policy_id": "P139",
+    "weights": {
+      "LGB_no_life": 0.21877622499169888,
+      "R3_AUC_bag": 0.11961435821763114,
+      "sector_nolife": 0.3685041441683395,
+      "sector_xgb": 0.29310527262233055
+    },
+    "alpha": 1,
+    "tag": "random_mix"
+  },
+  {
+    "policy_id": "P140",
+    "weights": {
+      "sector_deep": 0.2667298080788629,
+      "sector_xgb": 0.7332701919211372
+    },
+    "alpha": 1,
+    "tag": "random_mix"
+  },
+  {
+    "policy_id": "P141",
+    "weights": {
+      "sector_cat": 0.4636997908698009,
+      "sector_clean": 0.5363002091301992
+    },
+    "alpha": 1,
+    "tag": "random_mix"
+  },
+  {
+    "policy_id": "P142",
+    "weights": {
+      "LGB_no_life": 0.025125997001138916,
+      "sector_xgb": 0.9748740029988611
+    },
+    "alpha": 1,
+    "tag": "random_mix"
+  },
+  {
+    "policy_id": "P143",
+    "weights": {
+      "LGB_no_life": 0.06868778464562807,
+      "sector_clean": 0.04836755914148586,
+      "sector_nolife": 0.3330349272956354,
+      "sector_select25": 0.3227853418466783,
+      "sector_select55": 0.22712438707057236
+    },
+    "alpha": 1,
+    "tag": "random_mix"
+  },
+  {
+    "policy_id": "P144",
+    "weights": {
+      "HistGB": 0.29993445816305114,
+      "LGB_no_life": 0.22866914369598734,
+      "sector_clean": 0.4713963981409615
+    },
+    "alpha": 1,
+    "tag": "random_mix"
+  },
+  {
+    "policy_id": "P145",
+    "weights": {
+      "LGB_no_life": 0.685246669314171,
+      "sector_select55": 0.31475333068582895
+    },
+    "alpha": 1,
+    "tag": "random_mix"
+  },
+  {
+    "policy_id": "P146",
+    "weights": {
+      "R3_VALUE_bag": 0.28395644105182294,
+      "sector_cat": 0.35064047129649667,
+      "sector_clean": 0.36540308765168045
+    },
+    "alpha": 1,
+    "tag": "random_mix"
+  },
+  {
+    "policy_id": "P147",
+    "weights": {
+      "R3_AUC_bag": 0.24348214968379012,
+      "sector_cat": 0.35880969385775086,
+      "sector_nolife": 0.1014931093995407,
+      "sector_select25": 0.2962150470589183
+    },
+    "alpha": 1,
+    "tag": "random_mix"
+  },
+  {
+    "policy_id": "P148",
+    "weights": {
+      "sector_cat": 0.0517325633577489,
+      "sector_select25": 0.260612606724694,
+      "sector_select55": 0.05786981133714112,
+      "sector_select90": 0.629785018580416
+    },
+    "alpha": 1,
+    "tag": "random_mix"
+  },
+  {
+    "policy_id": "P149",
+    "weights": {
+      "sector_cat": 0.33914717264726735,
+      "sector_select25": 0.21660043728500333,
+      "sector_select90": 0.35262338299233176,
+      "sector_xgb": 0.09162900707539756
+    },
+    "alpha": 1,
+    "tag": "random_mix"
+  },
+  {
+    "policy_id": "P150",
+    "weights": {
+      "HistGB": 0.04993583432236003,
+      "R3_AUC_bag": 0.406305424412971,
+      "sector_deep": 0.1053756732241627,
+      "sector_select90": 0.355127534482699,
+      "sector_xgb": 0.08325553355780721
+    },
+    "alpha": 2.0,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P151",
+    "weights": {
+      "sector_deep": 0.25,
+      "sector_raw": 0.75
+    },
+    "alpha": 0.75,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P152",
+    "weights": {
+      "R3_VALUE_bag": 1.0
+    },
+    "alpha": 1.5,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P153",
+    "weights": {
+      "R3_AUC_bag": 0.25,
+      "sector_raw": 0.75
+    },
+    "alpha": 0.5,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P154",
+    "weights": {
+      "LGB_no_life": 0.06868778464562807,
+      "sector_clean": 0.04836755914148586,
+      "sector_nolife": 0.3330349272956354,
+      "sector_select25": 0.3227853418466783,
+      "sector_select55": 0.22712438707057236
+    },
+    "alpha": 1.5,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P155",
+    "weights": {
+      "sector_select25": 0.25,
+      "sector_select55": 0.75
+    },
+    "alpha": 1.25,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P156",
+    "weights": {
+      "sector_cat": 0.33914717264726735,
+      "sector_select25": 0.21660043728500333,
+      "sector_select90": 0.35262338299233176,
+      "sector_xgb": 0.09162900707539756
+    },
+    "alpha": 1.5,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P157",
+    "weights": {
+      "sector_raw": 0.75,
+      "sector_select55": 0.25
+    },
+    "alpha": 0.75,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P158",
+    "weights": {
+      "sector_spline": 1.0
+    },
+    "alpha": 2.0,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P159",
+    "weights": {
+      "HistGB": 0.25,
+      "sector_select55": 0.75
+    },
+    "alpha": 2.0,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P160",
+    "weights": {
+      "LGB_500": 1.0
+    },
+    "alpha": 2.0,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P161",
+    "weights": {
+      "LGB_plus": 1.0
+    },
+    "alpha": 1.5,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P162",
+    "weights": {
+      "HistGB": 0.5,
+      "sector_deep": 0.5
+    },
+    "alpha": 0.75,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P163",
+    "weights": {
+      "R3_VALUE_bag": 0.25,
+      "sector_select55": 0.75
+    },
+    "alpha": 2.0,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P164",
+    "weights": {
+      "sector_select90": 1.0
+    },
+    "alpha": 1.5,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P165",
+    "weights": {
+      "sector_raw": 0.75,
+      "sector_select55": 0.25
+    },
+    "alpha": 1.5,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P166",
+    "weights": {
+      "sector_select25": 1.0
+    },
+    "alpha": 1.25,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P167",
+    "weights": {
+      "HistGB": 0.5,
+      "sector_deep": 0.5
+    },
+    "alpha": 2.0,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P168",
+    "weights": {
+      "sector_deep": 0.25,
+      "sector_select55": 0.75
+    },
+    "alpha": 0.5,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P169",
+    "weights": {
+      "R3_VALUE_bag": 0.25,
+      "sector_raw": 0.75
+    },
+    "alpha": 1.25,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P170",
+    "weights": {
+      "sector_nolife": 1.0
+    },
+    "alpha": 1.5,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P171",
+    "weights": {
+      "HistGB": 0.75,
+      "R3_VALUE_bag": 0.25
+    },
+    "alpha": 2.0,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P172",
+    "weights": {
+      "R3_AUC_bag": 0.5,
+      "R3_VALUE_bag": 0.5
+    },
+    "alpha": 2.0,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P173",
+    "weights": {
+      "HistGB": 0.5,
+      "sector_select55": 0.5
+    },
+    "alpha": 2.0,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P174",
+    "weights": {
+      "HistGB": 0.12094709584270952,
+      "R3_VALUE_bag": 0.3194449653256137,
+      "sector_nolife": 0.2213589536657231,
+      "sector_select25": 0.15437523405929424,
+      "sector_xgb": 0.18387375110665954
+    },
+    "alpha": 0.75,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P175",
+    "weights": {
+      "LGB_revweighted": 1.0
+    },
+    "alpha": 2.0,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P176",
+    "weights": {
+      "LGB_cat": 1.0
+    },
+    "alpha": 1.5,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P177",
+    "weights": {
+      "sector_raw": 0.75,
+      "sector_select25": 0.25
+    },
+    "alpha": 2.0,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P178",
+    "weights": {
+      "HistGB": 0.27115939071996126,
+      "sector_deep": 0.45838490042173613,
+      "sector_nolife": 0.2704557088583027
+    },
+    "alpha": 1.25,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P179",
+    "weights": {
+      "LGB_no_life": 0.21877622499169888,
+      "R3_AUC_bag": 0.11961435821763114,
+      "sector_nolife": 0.3685041441683395,
+      "sector_xgb": 0.29310527262233055
+    },
+    "alpha": 2.0,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P180",
+    "weights": {
+      "LGB_raw_change": 1.0
+    },
+    "alpha": 0.75,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P181",
+    "weights": {
+      "LGB_500": 1.0
+    },
+    "alpha": 0.75,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P182",
+    "weights": {
+      "LGB_no_life": 0.3333333333333333,
+      "R3_VALUE_bag": 0.3333333333333333,
+      "sector_select25": 0.3333333333333333
+    },
+    "alpha": 2.0,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P183",
+    "weights": {
+      "ExtraTrees": 1.0
+    },
+    "alpha": 1.5,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P184",
+    "weights": {
+      "sector_cat": 1.0
+    },
+    "alpha": 1.25,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P185",
+    "weights": {
+      "R3_VALUE_bag": 0.75,
+      "sector_raw": 0.25
+    },
+    "alpha": 1.25,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P186",
+    "weights": {
+      "sector_clean": 1.0
+    },
+    "alpha": 0.5,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P187",
+    "weights": {
+      "LGB_raw_revenue": 1.0
+    },
+    "alpha": 0.5,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P188",
+    "weights": {
+      "R3_AUC_bag": 0.2,
+      "R3_VALUE_bag": 0.2,
+      "sector_deep": 0.2,
+      "sector_raw": 0.2,
+      "sector_select25": 0.2
+    },
+    "alpha": 1.25,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P189",
+    "weights": {
+      "LGB_shallow": 1.0
+    },
+    "alpha": 0.75,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P190",
+    "weights": {
+      "R3_AUC_bag": 1.0
+    },
+    "alpha": 2.0,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P191",
+    "weights": {
+      "HistGB": 0.25,
+      "sector_select55": 0.75
+    },
+    "alpha": 1.25,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P192",
+    "weights": {
+      "LGB_no_life": 0.5,
+      "sector_select25": 0.5
+    },
+    "alpha": 1.25,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P193",
+    "weights": {
+      "sector_select25": 0.5,
+      "sector_select55": 0.5
+    },
+    "alpha": 1.25,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P194",
+    "weights": {
+      "HistGB": 0.5747843198430839,
+      "sector_clean": 0.11703133178597694,
+      "sector_nolife": 0.09705538936547944,
+      "sector_select55": 0.21112895900545983
+    },
+    "alpha": 0.5,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P195",
+    "weights": {
+      "HistGB": 0.25,
+      "R3_AUC_bag": 0.75
+    },
+    "alpha": 0.75,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P196",
+    "weights": {
+      "R3_AUC_bag": 0.75,
+      "sector_select25": 0.25
+    },
+    "alpha": 1.25,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P197",
+    "weights": {
+      "R3_AUC_bag": 0.5,
+      "sector_deep": 0.5
+    },
+    "alpha": 1.25,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P198",
+    "weights": {
+      "HistGB": 0.19529456037091228,
+      "sector_clean": 0.4155822454991799,
+      "sector_deep": 0.15174698737058195,
+      "sector_select55": 0.2373762067593259
+    },
+    "alpha": 1.5,
+    "tag": "alpha_sensitivity"
+  },
+  {
+    "policy_id": "P199",
+    "weights": {
+      "sector_DART": 1.0
+    },
+    "alpha": 0.5,
+    "tag": "alpha_sensitivity"
+  }
+]

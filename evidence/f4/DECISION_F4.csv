@@ -1,0 +1,8 @@
+prioridad,proyecto,valor,factibilidad,score,cuadrante_relativo,neto_base_UM_1K,decision,motivo
+1,P01,2.8333333333333335,3.6250000000000004,3.15,High relative priority,-61.517354810492094,Seleccionado PoC,Mayor factibilidad y resultado futuro observado; políticas comparables; valor incremental por demostrar.
+2,P04,3.0,2.625,2.85,Value-led,3.8370423280884296,Challenger económico,"Mayor neto simulado; periodo, ahorro realizable y aporte diferencial del targeting no verificados."
+3,P02,2.5,2.875,2.65,High relative priority,-28.43509425986285,Alternativa,"Alta prioridad relativa; faltan catálogo, márgenes y migración; canibalización."
+4,P05,2.0000000000000004,2.875,2.35,Feasibility-led,-29.496948969348985,Diferido,Antigüedad no prueba intención de compra; falta margen y resultado futuro.
+5,P06,2.3333333333333335,2.25,2.3,Defer,-14.41198115462943,Alternativa,"Potencial económico condicionado a identidad de hogar, descuentos y activación."
+6,P03,2.3333333333333335,2.0,2.2,Defer,-150.71295731744794,Diferido,"Economía operativa negativa, causas/resolución y dependencias de red."
+ND,P07,ND,ND,ND,ND,ND,No elegible,"Sin impago, exposición y pérdida observada; ND no cero."

@@ -1,0 +1,24 @@
+{
+  "n": 30000,
+  "eligible": 29904,
+  "excluded": 96,
+  "excluded_churn_rate": 0.6666666666666666,
+  "sample_prevalence": 0.4956333333333333,
+  "candidate": 137.72056793879094,
+  "reference": 105.89184115724416,
+  "relative": 0.30057770677801976,
+  "delta": 31.828726781546777,
+  "ci95": [
+    24.584351023742638,
+    39.338488110228816
+  ],
+  "guardrails": {
+    "0.005": 0.30221445361206123,
+    "0.02": 0.2931689072658574
+  },
+  "primary_pass": true,
+  "conditional_operating": 2.3689164359786647,
+  "conditional_net_100k": -59.83108356402134,
+  "limitations": "Provisional retrospective reserve; no temporal/causal or profit validation. Bootstrap conditional on fitted models.",
+  "candidate_name": "Q0062"
+}

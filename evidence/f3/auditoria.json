@@ -1,0 +1,52 @@
+{
+  "files": {
+    "Client": {
+      "sha256": "264a58512dc857fff29e11ef43fd53bc4407be23aac9dcc2c0df23536c800778",
+      "rows": 100000,
+      "columns": 50,
+      "duplicates": 0,
+      "missing_ids": 0
+    },
+    "Record": {
+      "sha256": "5bd563bb77b357920832510b78d6842060d928cb5de8c0aaf79aa2a647e2271a",
+      "rows": 100000,
+      "columns": 51,
+      "duplicates": 0,
+      "missing_ids": 0
+    }
+  },
+  "join_rows": 100000,
+  "join_columns": 100,
+  "manifest_sha256": "c894e695d999a2da8f1dcf13ed7853f50c2356aeb7b28f855c79e5de452fb494",
+  "dev_n": 70000,
+  "reserved_n": 30000,
+  "reserved_status": "provisional; prior aggregate outcome exploration of entire sample; no new reserved outcome analysis",
+  "missing_cells_dev": 240660,
+  "complete_rows_dev": 18604,
+  "diagnostic_metrics": {
+    "dev_churn_n": 34693,
+    "dev_churn_pct": 49.56142857142857,
+    "negative_rev_dev": 4,
+    "negative_age_dev": 104,
+    "zero_attempt_dev": 5755,
+    "ratio_gt_1_dev": 3,
+    "ratio_den_ge30_gt1": 0,
+    "high_value_n": 7832,
+    "high_value_churn_revenue": 587850.3183334,
+    "declining_use_n": 37619,
+    "overage_n": 13986,
+    "overage_total": 777353.5808333199,
+    "overage_mean": 55.580836610418984,
+    "overage_revenue_mean": 110.52192561609466,
+    "failure_n": 10464,
+    "care_zero": 39007,
+    "care_total": 126858.999999046,
+    "care_top20_total": 110493.999999822,
+    "care_top20_share": 0.8709985101620927,
+    "old_equipment_n": 7623,
+    "gap_n": 9849,
+    "gap_total": 13286,
+    "old_high_overage_overlap": 821,
+    "quality_high_care_overlap": 2317
+  }
+}
